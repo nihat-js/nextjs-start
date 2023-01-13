@@ -1,0 +1,18 @@
+body{
+  color  : #0c6cd3;
+  background-color: #f4f4fb; 
+}
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-decoration:none;
+  list-style : none;
+  font-family : 'apple'  
+  }
+  
+  a{
+    color : inherit;
+  }

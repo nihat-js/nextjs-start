@@ -1,0 +1,8 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: hsl(220, 50%, 60%);
+  color : #fff;
+}
