@@ -1,18 +1,35 @@
-body{
-  color  : #0c6cd3;
-  background-color: #f4f4fb; 
+body {
+  background-color: #f4f4fb;
 }
 
 
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  text-decoration:none;
-  list-style : none;
-  font-family : 'apple'  
-  }
-  
-  a{
-    color : inherit;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'apple'
+}
+
+a {
+  color: inherit;
+}
+
+.characters {}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 1.5rem;
+}
+
+.box .img-wrap img {
+  width: 100%;
+}
+
